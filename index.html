@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--stylesheet link-->
+        <link rel="stylesheet" href="style.css">
+
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">  
+    </head>
+
+    <body>
+        <!--Nav bar start here-->
+        <div class="nav">
+            <a class="nav-items" href="index.html">Home</a>
+            <a class="nav-items" href="#aboutus" class="active">About Us</a>
+            <a class="nav-items-3" href="#contactus">Contact Us</a>
+        </div>
+        <!--End of nav bar-->
+
+        <!--profile section-->
+        <div class="profile">
+            <img class="lemo-profile" src="Assets/Lemo1.jpeg" alt="Lemo Profile Image">
+            <div class="intro-content" id="aboutus">
+                <h1>Introduction</h1>
+                <p class="lemo-intro"> Hello everyone, this is Lemo san portfolio!
+                    Let me introduce myself first. My name is Lemo, I'm 5 years old.
+                    I'm a red-face rose parrot. I have a master's degree in destroying houses 
+                    and Ph degree in cuteness. If you want me to share with you my experience 
+                    about how to destroy your owners' rooms and houses please contact me. 
+                    I have so many tips and tricks that will make your owners love you even if you 
+                    destroy everything. My motto in life is (Do what your mom tells you not to do). 
+                    By the way, my mom loves me so much even that I always drove her crazy
+                <p class="p-s"><strong>P.s.</strong> Don't tell my mom about that portfolio.</p>
+            </div>
+        </div>
+        <!--end of profile section-->
+
+        <!--portfolio-box section-->
+        <div class="portfolio-box">
+            <img class="box-img" src="assets/Lemo5.jpeg" alt="">
+            <img class="box-img" src="assets/Lemo2.jpeg" alt="">
+            <img class="box-img" src="assets/Lemo3.jpeg" alt="">   
+            <img class="box-img" src="assets/Lemo4.jpeg" alt="">                     
+        </div>
+        <!--end of portfolio-box section-->
+
+        <!--my-skills section-->
+        <div class="my-skills">
+            <h1 class="my-skills-title"> My Skills</h1>
+            <input type="text" id="inputskill" placeholder="Enter skill name">
+            <button id="Add">Add Skill</button>
+        </div>
+        <div id="skillslist"></div>
+        <!--end of my-skills section-->
+
+
+        <!--contact us form section-->
+        <div class="form-container" id="contactus">
+            <form class="form">
+                <h1 class="conatactus"> Contact Us</h1>
+
+                <label class="first-name" for="first-name">First Name:</label>
+                <input class="first-name-input" type="text" name="first-name" placeholder="First name">
+
+                <label class="last-name" for="last-name">Last Name:</label>
+                <input class="last-name-input" type="text" name="last-name" placeholder="Last name">
+
+                <label class="email" for="email">Email:</label>
+                <input class="email-input" type="text" name="email" placeholder="Email">
+
+                <label class="phone" for="phone">Phone Number:</label>
+                <input class="phone-input" type="tel" name="phone" placeholder="Phone number">
+
+                <label class="message-label" for="message">Message:</label>
+                <textarea class="message-input" name="message" placeholder="Message" cols="50" rows="4"></textarea>
+
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <!--end of contact us form section-->
+
+
+        <!--footer-->
+        <div class="footer"> All Rights Reserved for Lemo San Company (
+            <a href=""> Learn more</a>)
+        </div>
+
+
+        <!--JavaScript link-->
+        <script src="script.js"></script>
+
+    </body>
+</html>

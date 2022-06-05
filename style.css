@@ -1,0 +1,229 @@
+/*reset*/
+* {
+    margin: auto;
+    padding: auto;
+}
+/*______________________________________________*/
+
+
+/*nav bar*/
+.nav {
+    background-color: black;
+    font-size: 15px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-items, .nav-items-3 {
+    color: white;
+    padding-top: 13px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 6px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.nav-items-3 {
+    margin-right: 140px;
+}
+/*______________________________________________*/
+
+
+/*profile section*/
+.profile {
+    display: flex;
+    margin-top: 70px;
+}
+
+.lemo-profile {
+    width: 200px;
+    border-radius: 200px;
+}
+
+.intro-content {
+    width: 800px;
+    font-family: 'Patrick Hand', cursive;
+    margin-left: -100px;
+
+}
+
+.lemo-intro {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.p-s {
+    font-size: 18px;
+    color: gray;
+}
+/*______________________________________________*/
+
+
+/*portfolio-box section*/
+.portfolio-box {
+    height: 300px;
+    background-color: rgba(202, 202, 202, 0.549);
+    margin-top: 60px;
+    padding-left: 210px;
+}
+
+.box-img {
+    width: 220px;
+    display: inline-block;
+    margin-top: 37px;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+.box-img:hover {
+    opacity: 1;
+}
+/*______________________________________________*/
+
+
+/*my-skills section section*/
+.my-skills {
+    height: 50px;
+    margin-top: 30px;
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+}
+
+.my-skills-title {
+    margin-top: 0px;
+    margin-left: 210px;
+}
+
+#inputskill {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    margin-right: -180px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#Add {
+    margin-top: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    background-color: rgb(225, 225, 225);
+    width: 80px;
+}
+
+#skillslist {
+    border: 1px dashed gray;
+    width: 910px;
+    margin-top: 5px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    padding: 5px;
+}
+/*______________________________________________*/
+
+
+/*form section here*/
+.form-container {
+    background-color: rgba(202, 202, 202, 0.549);
+}
+
+.form {
+    margin-top: 30px;
+    width: 920px;
+    height: 330px;
+}
+
+.conatactus {
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 30px;
+}
+
+.first-name, .first-name-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.first-name-input {
+    width: 140px;
+}
+
+.last-name, .last-name-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.last-name {
+    margin-left: 5px;
+}
+
+.last-name-input {
+    width: 140px;
+}
+
+.email, .email-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.email {
+    margin-left: 5px;
+}
+
+.email-input {
+    width: 140px;
+}
+
+
+.phone, .phone-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
+.phone {
+    margin-left: 5px;
+}
+
+.phone-input {
+    width: 140px;
+}
+
+.message-label, .message-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.message-input {
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+.submit {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    background-color: white;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 70px;
+
+}
+/*______________________________________________*/
+
+
+/*Footer*/
+.footer {
+    background-color: black;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 14px;
+    padding-top: 20px;
+}
